@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 15px;
+  color: #bbb
+}
+
+h6 {
+  font-size: 10px;
+  color: #999
+}
+
+#footer {
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  background-color: #222;
+  text-align: center;
+  min-width: 100%;
+}
+
+#topbar {
+  background-color: #222;
+  height: 60px;
+  min-width: 400px;
+}
+
+#toplinks {
+  float: right;
+  padding: 20px 10px 0 0;
+}
+
+#footer ul,
+#toplinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#toplinks li {
+  float: left;
+}
+
+#footer li a,
+#toplinks li a {
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-transition: all 250ms ease-out;
+  -ms-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+
+#sololink:hover {
+  color: #fdb;
+  -webkit-transition: all 250ms ease-out;
+  -ms-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+
+#discordlink:hover {
+  color: #bbf;
+  -webkit-transition: all 250ms ease-out;
+  -ms-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+
+#topbar .logo {
+  color: #fff;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 0 0 10px;
+  text-decoration: none;
+  -webkit-transition: all 250ms ease-out;
+  -ms-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+
+#topbar .logo:hover {
+  color: #bfb;
+  -webkit-transition: all 250ms ease-out;
+  -ms-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+
+.imgt .imgtl {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 0 20px;
+  min-height: 250px;
+}
+
+.imgt .imgtr {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.imgt img {
+  width: 50%;
+}
+
+#discordstats {
+  background-color: #5663f7;
+  padding: 20px;
+}
